@@ -21,4 +21,7 @@ I used
     mvn spring-boot:run
 
     For Testing:
-    I've created a CommandLineRunner bean for testing. Comment out the lines there and test every method.    
+    I've created a CommandLineRunner bean for testing. Comment out the lines there and test every method.
+    You can also see the result from H2 DB. After running the application go to http://localhost:8080/h2-console
+    and connect. There will be two tables called FRIDGE_ITEM and ITEM_TYPE_TRACKING.
+    There are tests for the service in SmartFridgeManagerTest and ItemTrackingServiceImplTest  
